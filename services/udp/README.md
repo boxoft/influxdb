@@ -2,7 +2,7 @@
 
 ## A note on UDP/IP OS Buffer sizes
 
-Some OSes (most notably, Linux) place very restricive limits on the performance
+Some OSes (most notably, Linux) place very restrictive limits on the performance
 of UDP protocols. It is _highly_ recommended that you increase these OS limits to
 at least 25MB before trying to run UDP traffic to your instance.
 25MB is just a recommendation, and should be adjusted to be inline with your
